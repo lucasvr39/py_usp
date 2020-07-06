@@ -1,0 +1,11 @@
+# implementação dos exercícios Fizz, Buzz e FizzBuzz juntos através de uma função
+
+def fizzbuzz(x):
+    if x % 3 == 0 and x % 5 != 0:
+        return "Fizz"
+    elif x % 3 != 0 and x % 5 == 0:
+        return "Buzz"
+    elif x % 3 == 0 and x % 5 == 0:
+        return "FizzBuzz"
+    else:
+        return x
